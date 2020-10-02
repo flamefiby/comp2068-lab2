@@ -6,7 +6,7 @@ var router = express.Router();
 router.get('/', function (req, res) {
 
 
-    res.render('index', { title: 'Dong' });
+    
     //calculate function takes 3 parameters method,x,y
     //parse x and y
     //parseFloat(x)
@@ -39,7 +39,7 @@ router.get('/', function (req, res) {
     //req = request
     //res = response
     //Send response
-    
+    res.render('index', { title: 'Dong' });
 
 
 });
